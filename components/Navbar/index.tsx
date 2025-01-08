@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { LEFT_ARROW } from "@/constants/assets";
+import { LEFT_ARROW, USER_ICON } from "@/constants/assets";
 import { useState } from "react";
 import Switch from "react-switch";
 
@@ -25,7 +25,9 @@ const Navbar = () => {
           />
           <span className="text-[#0E9F6E]">Auto Save</span>
         </div>
-        <div className="w-[30px] h-[30px] rounded-full bg-red-400/30"></div>
+        <div className="w-[30px] h-[30px] rounded-full bg-red-400/30 flex items-center justify-center">
+          <Image src={USER_ICON} width={15} height={15} alt="" />
+        </div>
       </div>
     </div>
   );

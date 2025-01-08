@@ -21,6 +21,7 @@ const PLAY_CIRCL_ICON = "/icons/play_circle.svg";
 const WARNING_TRIANGLE_ICON = "/icons/alert-triangle.svg";
 const LOADING_ICON = "/icons/loading.svg";
 const LINK_ICON = "/icons/link.svg";
+const USER_ICON = "/icons/user-icon.svg";
 
 // logos
 
@@ -59,4 +60,5 @@ export {
   WARNING_TRIANGLE_ICON,
   LOADING_ICON,
   LINK_ICON,
+  USER_ICON,
 };
